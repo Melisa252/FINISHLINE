@@ -1,0 +1,44 @@
+body{
+	background-image: url('../img/pozadina.JPG');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.pageContent{
+	margin-top: 50px;
+}
+
+.pageContent *{
+	color: white;
+	font-weight: 500;
+}
+
+.moreAboutUsBtn{
+	text-align: center;
+}
+
+.offerWrap{
+	height: 50vh;
+	border: solid 2px red;
+	cursor: pointer;
+}
+
+.offerWrap h2{
+	color: black;
+	text-align: center;
+	bottom: 0;
+}
+
+.offer1{
+	background-image: url("../img/serv.JPG");
+	background-size: cover;
+}
+.offer2{
+	background-image: url("../img/sched.JPG");
+	background-size: cover;
+}
+.offer3{
+	background-image: url("../img/Mapa.png");
+	background-size: cover;
+}

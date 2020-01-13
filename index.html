@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finish Line</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jq.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">Finish Line</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="galery.html">Galery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.google.com/maps/place/Finish+Line+Sarajevo/@43.8788501,18.3935698,17z/data=!3m1!4b1!4m5!3m4!1s0x4758cf1aa5be5613:0x8e0348893377a57c!8m2!3d43.8788463!4d18.3957585">Location</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="services.html">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="schedule.html">Schedule</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="pageContent">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-12 offset-sm-4">
+					<img src="img/logo.PNG" width="100%">
+				</div>
+			</div>
+			<div class="row">
+				<p>We are a small car business  located in Sarajevo. The main purpose of our business is to achieve for your car a relevant placement in the tuning world.</p>
+				<a href="about.html" class="btn btn-danger btn-lg moreAboutUsBtn">Find out more</a>
+			</div>
+			
+			<div class="row">
+				<h1>Our Offer</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-sm-4 offerWrap offer1">
+					<h2>Service</h2>
+					
+				</div>
+				<div class="col-12 col-sm-4 offerWrap offer2">
+					<h2>Schedule</h2>
+					
+				</div>
+				<div class="col-12 col-sm-4 offerWrap offer3">
+					<h2>Location</h2>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		
+	</footer>
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		$(".offer1").click(function () {
+			window.location = "services.html";
+		})
+		$(".offer2").click(function () {
+			window.location = "schedule.html";
+		})
+		$(".offer3").click(function () {
+			window.location = "https://www.google.com/maps/place/Finish+Line+Sarajevo/@43.8788501,18.3935698,17z/data=!3m1!4b1!4m5!3m4!1s0x4758cf1aa5be5613:0x8e0348893377a57c!8m2!3d43.8788463!4d18.3957585";
+		})
+	</script>
+</body>
+</html>
